@@ -7,7 +7,6 @@ export default makeStyles((theme) => ({
          display: 'block',
       },
    },
-
    search: {
       position: 'relative',
       borderRadius: theme.shape.borderRadius,
@@ -21,7 +20,6 @@ export default makeStyles((theme) => ({
          width: 'auto',
       },
    },
-
    searchIcon: {
       padding: theme.spacing(0, 2),
       height: '100%',
@@ -31,11 +29,9 @@ export default makeStyles((theme) => ({
       alignItems: 'center',
       justifyContent: 'center',
    },
-
    inputRoot: {
       color: 'inherit',
    },
-
    inputInput: {
       padding: theme.spacing(1, 1, 1, 0),
       paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
@@ -43,7 +39,6 @@ export default makeStyles((theme) => ({
       width: '100%',
       [theme.breakpoints.up('md')]: { width: '20ch' },
    },
-
    toolbar: {
       display: 'flex',
       justifyContent: 'space-between',
